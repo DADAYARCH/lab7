@@ -8,8 +8,8 @@ public class DatabaseHandler {
     private Connection connection;
 
     public DatabaseHandler() throws DatabaseException {
-        connectToDatabase("s334041", "HqwRlsdHoWeZOruZ", "jdbc:postgresql://pg:5432/studs");
-       // connectToDatabase("s334041", "HqwRlsdHoWeZOruZ", "jdbc:postgresql://localhost:1099/studs");
+        connectToDatabase("login", "password", "host");
+       // connectToDatabase("login", "password", "host");
     }
 
     public void connectToDatabase(String login, String password, String url) throws DatabaseException {
